@@ -1,0 +1,20 @@
+name: LightProtect
+author: HydroSnow
+version: 0.2
+main: fr.hydrosnow.lightprotect.Main
+description: "Lightweight chunk-based protection plugin"
+
+commands:
+    lightprotect:
+        description: "Commande du plugin"
+        usage: "/lightprotect"
+        aliases: lipo
+
+permissions:
+    lightprotect.claim:
+        default: true
+        description: "Claim chunks"
+        
+    lightprotect.bypass:
+        default: op
+        description: "Bypass protection"
